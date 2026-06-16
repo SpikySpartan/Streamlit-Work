@@ -88,28 +88,6 @@ border: 1px solid rgba(0, 242, 254, 0.3);
 
 ---
 
-## 🚀 Quick Start
-
-### Prerequisites
-```bash
-Python 3.9+
-Streamlit >= 1.30
-```
-
-### Installation
-```bash
-git clone https://github.com/SpikySpartan/Streamlit-Work.git
-cd Streamlit-Work
-pip install -r requirements.txt
-```
-
-### Run the Dashboard
-```bash
-streamlit run app.py
-```
-
----
-
 ## 💡 Technical Highlights
 
 - **Optimized Algorithms:** O(√n) primality testing, efficient Fibonacci generation
@@ -118,27 +96,7 @@ streamlit run app.py
 - **Modern Aesthetics:** Glassmorphism with CSS overrides
 - **No External Assets:** Base64-encoded background images for reliability
 
----
-
-## 📊 Architecture
-
 ```
-Streamlit-Work/
-├── README.md
-├── requirements.txt
-├── Factorial.py
-├── Generate the table of a number.py
-├── Greatest Between Three Number.py
-├── Greatest Between Two Numbers.py
-├── Odd_Even.py
-├── Prime.py
-├── Reverse a number and check it is palindrome or not.py
-├── Sign up.py
-└── images/
-    └── background code1.jpg
-```
-
----
 
 ## 🔧 Technologies Used
 
@@ -154,12 +112,6 @@ Contributions, issues, and feature requests are welcome! Feel free to:
 - Fork the repository
 - Create a feature branch
 - Submit pull requests
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
