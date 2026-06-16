@@ -1,76 +1,172 @@
-# Streamlit-Work
-# 🧮Math Utilities Multi-Functional Terminal
+# 🧮 Streamlit-Work: Math Utilities Dashboard
 
-An advanced, high-performance mathematical dashboard built entirely using the **Streamlit** framework. Enclosed within a single, cohesive interface, this hub utilizes a futuristic, dark glassmorphic theme to deliver an array of computational utility engines—complete with integrated, interactive runtime tabs and live source code inspection panels.
----
+[![Python Version](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-FF4B4B?style=for-the-badge&logo=streamlit)](https://streamlit.io/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](#)
 
-## 🌌 Features
-
-This dashboard leverages Streamlit's native tab architecture to segment your processing tools into seven highly specific micro-engines:
-
-* **🔢 Factorials Module:** Computes the mathematical product sequence of descending integers up to $100!$ using responsive sliders.
-* **🧮 Standalone Calculator:** Runs continuous floating-point operations covering addition, subtraction, multiplication, and division arrays with built-in zero-division error protections.
-* **🧬 Primality Tester:** Implements an optimized square-root ceiling approach ($O(\sqrt{n})$) to quickly determine if a value is composite or prime.
-* **👑 Vector Maximum Finder:** Compares a sequence of three custom inputs simultaneously to cleanly isolate the absolute largest integer.
-* **📈 Fibonacci Calculator:** Computes dynamic element sequence paths using tuple variable updates (`a, b = b, a + b`).
-* **⚖️ Parity Identifier:** Fast-checks integer modulos to determine if an input is explicitly odd or even.
-* **🔄 Symmetry & Reversal Validator:** Translates integers into sequence matrices to calculate reversals and verify string palindromes via index slicing slices (`[::-1]`).
+An elegant, high-performance **mathematical dashboard** built with [Streamlit](https://streamlit.io/). This repository contains a collection of interactive Python utilities for mathematical computations with a modern glassmorphic UI design.
 
 ---
 
-## 🖼️ Architectural & Theme Layout
+## 🌟 Features
 
-The front-end design uses explicit style overrides to completely strip away standard, plain web defaults and apply a premium tech look:
+The dashboard leverages Streamlit's tab architecture to provide seven specialized mathematical tools:
 
-* **Embedded Memory Assets (Base64):** The app reads your local image pathway (`images/background code1.jpg`) and parses it directly into a memory data vector, preventing missing asset errors regardless of the hosting machine's operating system.
-* **Cyber Glass Panels:** Custom CSS selectors target background sheets and user widgets to create a beautiful unified dark interface:
-  ```css
-  background-color: rgba(6, 18, 36, 0.6) !important;
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(0, 242, 254, 0.3);
-Python codes
-# 📂 Standalone Python Code Utilities Repository
-
-Welcome to the **Basic Codes** core directory. This segment of the project houses an organized suite of independent, responsive mathematical utilities and configuration scripts built using the **Streamlit** framework. Every tool operates as an isolated file containing dedicated, local computer vision/base64 background injection wrappers, stylized alert containers, and real-time code preview pipelines.
-
-![Python Version](https://img.shields.io/badge/Python-3.9+-blue?style=for-the-badge&logo=python)
-![Streamlit UI Engine](https://img.shields.io/badge/Streamlit-1.30+-FF4B4B?style=for-the-badge&logo=streamlit)
+| Module | Description | Capability |
+|--------|-------------|-----------|
+| 🔢 **Factorial Calculator** | Computes factorial sequences (up to 100!) | Interactive sliders, fast computation |
+| 🧮 **Standalone Calculator** | Floating-point arithmetic operations | Addition, subtraction, multiplication, division with error protection |
+| 🧬 **Primality Tester** | Determines prime vs. composite numbers | Optimized O(√n) algorithm |
+| 👑 **Vector Maximum Finder** | Finds the largest among three numbers | Instant comparison with visual feedback |
+| 📈 **Fibonacci Calculator** | Generates Fibonacci sequences | Dynamic element generation |
+| ⚖️ **Parity Identifier** | Checks if numbers are odd/even | Instant modulo verification |
+| 🔄 **Palindrome Validator** | Tests for number/string palindromes | Reversal and symmetry detection |
 
 ---
 
-## 🛠️ Module Pipeline Directory
+## 🎨 Design Highlights
 
-Below is the complete architectural mapping of the underlying script inventory, including operational scope and execution notes:
+The UI features a modern **dark glassmorphic theme** with:
 
-### 1. 🔢 Factorial Calculator (`Factorial.py`)
-* **Core Action:** Computes the mathematical product of all positive integers descending down to 1 ($n!$).
-* **Features:** Utilizes responsive `st.slider` configurations ranging up to 100 alongside internal layout string formatting hooks.
+✨ **Custom CSS Styling:**
+- Embedded Base64 background images (no external asset dependencies)
+- Cyber glass panels with blur effects
+- Dynamic cyan accent borders
+- Responsive widget theming
 
-### 2. 🧮 Matrix Generation Engine (`Generate the table of a number.py`)
-* **Core Action:** Spawns a multi-iteration multiplication chart mapping elements cleanly across standard increments ($1 \times n$ through $10 \times n$).
-* **Features:** Leverages explicit loop counters formatted inside sequential text block layouts.
-
-### 3. 👑 Triple Coordinate Vector Maximum (`Greatest Between Three Number.py`)
-* **Core Action:** Processes three distinct input data points to isolate the absolute dominant integer value.
-* **Features:** Employs Python’s native, high-efficiency evaluation operator matrix (`max(t1, t2, t3)`).
-
-### 4. ⚖️ Dual Coordinate Maximum (`Greatest Between Two Numbers.py`)
-* **Core Action:** Compares a pair of user-configured slider entries to cleanly branch layout alerts based on a basic arithmetic condition hierarchy.
-
-### 5. 🔢 Integer Parity Identifier (`Odd_Even.py`)
-* **Core Action:** Evaluates integer configurations to determine mathematical parity (Modulo evaluation tracking: $n \pmod 2 == 0$).
-* **Features:** Instantly flags parity metrics using clean, color-coded visual feedback modules.
-
-### 6. 🧬 Primality Verification Scanner (`Prime.py`)
-* **Core Action:** Checks if a chosen integer qualifies as a prime number by iterating through potential factors up to the given boundary ceiling.
-* **Features:** Uses an element tracking layout to display a positive flag indicator only when exactly two factors are verified.
-
-### 7. 🔄 Numeric Symmetry Engine (`Reverse a number and check it is palidrome or not.py`)
-* **Core Action:** Breaks down an integer to reverse its digital order, then runs reflectional symmetry cross-checks.
-* **Features:** Features structural `while` parsing loops combined with alternate high-efficiency string sequence formatting steps (`[::-1]`).
-
-### 📝 Client Sign-Up Gate (`Sign up.py`)
-* **Core Action:** A clean mockup dashboard for user profile data input tracking.
-* **Features:** Captures user properties with masked input fields (`type="password"`), inline placeholder data, and pop-up registration success metrics.
+```css
+background-color: rgba(6, 18, 36, 0.6) !important;
+backdrop-filter: blur(8px);
+border: 1px solid rgba(0, 242, 254, 0.3);
+```
 
 ---
+
+## 📁 Module Directory
+
+### Core Utilities
+
+#### 1️⃣ **Factorial.py**
+- Computes n! (factorial)
+- Uses responsive slider input (0-100)
+- Mathematical product of descending integers
+
+#### 2️⃣ **Generate the table of a number.py**
+- Creates multiplication tables
+- Generates 1×n through 10×n matrices
+- Formatted sequential layout
+
+#### 3️⃣ **Greatest Between Three Number.py**
+- Compares three inputs
+- Returns maximum value efficiently
+- Python's native `max()` operator
+
+#### 4️⃣ **Greatest Between Two Numbers.py**
+- Dual-input comparison
+- Slider-based configuration
+- Conditional branching with alerts
+
+#### 5️⃣ **Odd_Even.py**
+- Parity detection (odd/even)
+- Modulo operation: n mod 2 == 0
+- Color-coded visual feedback
+
+#### 6️⃣ **Prime.py**
+- Primality verification
+- Factors up to √n boundary
+- Boolean prime/composite flag
+
+#### 7️⃣ **Reverse a number and check it is palindrome or not.py**
+- Numeric reversal
+- String sequence formatting (`[::-1]`)
+- Palindrome symmetry validation
+
+#### 🗝️ **Sign up.py**
+- User profile entry mockup
+- Masked password fields
+- Registration feedback system
+
+---
+
+## 🚀 Quick Start
+
+### Prerequisites
+```bash
+Python 3.9+
+Streamlit >= 1.30
+```
+
+### Installation
+```bash
+git clone https://github.com/SpikySpartan/Streamlit-Work.git
+cd Streamlit-Work
+pip install -r requirements.txt
+```
+
+### Run the Dashboard
+```bash
+streamlit run app.py
+```
+
+---
+
+## 💡 Technical Highlights
+
+- **Optimized Algorithms:** O(√n) primality testing, efficient Fibonacci generation
+- **Error Handling:** Zero-division protection in calculator module
+- **Responsive Design:** Adaptive UI with Streamlit's native components
+- **Modern Aesthetics:** Glassmorphism with CSS overrides
+- **No External Assets:** Base64-encoded background images for reliability
+
+---
+
+## 📊 Architecture
+
+```
+Streamlit-Work/
+├── README.md
+├── requirements.txt
+├── Factorial.py
+├── Generate the table of a number.py
+├── Greatest Between Three Number.py
+├── Greatest Between Two Numbers.py
+├── Odd_Even.py
+├── Prime.py
+├── Reverse a number and check it is palindrome or not.py
+├── Sign up.py
+└── images/
+    └── background code1.jpg
+```
+
+---
+
+## 🔧 Technologies Used
+
+- **[Streamlit](https://streamlit.io/)** - Web app framework
+- **Python 3.9+** - Core programming language
+- **CSS** - Custom theming and styling
+
+---
+
+## 💬 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to:
+- Fork the repository
+- Create a feature branch
+- Submit pull requests
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+---
+
+## 👨‍💻 Author
+
+**SpikySpartan** - [GitHub Profile](https://github.com/SpikySpartan)
+
+---
+
+**⭐ If you find this project useful, please consider giving it a star!**
