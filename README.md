@@ -16,7 +16,7 @@ The dashboard leverages Streamlit's tab architecture to provide seven specialize
 |--------|-------------|-----------|
 | 🔢 **Factorial Calculator** | Computes factorial sequences (up to 100!) | Interactive sliders, fast computation |
 | 🧮 **Standalone Calculator** | Floating-point arithmetic operations | Addition, subtraction, multiplication, division with error protection |
-| 🧬 **Primality Tester** | Determines prime vs. composite numbers | Optimized O(√n) algorithm |
+| 🧬 **Primality Tester** | Determines prime                           | Optimized O(√n) algorithm |
 | 👑 **Vector Maximum Finder** | Finds the largest among three numbers | Instant comparison with visual feedback |
 | 📈 **Fibonacci Calculator** | Generates Fibonacci sequences | Dynamic element generation |
 | ⚖️ **Parity Identifier** | Checks if numbers are odd/even | Instant modulo verification |
