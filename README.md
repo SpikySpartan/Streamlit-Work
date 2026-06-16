@@ -42,7 +42,7 @@ border: 1px solid rgba(0, 242, 254, 0.3);
 
 ---
 
-## 📁 Module Directory
+## 📁 Basic Code
 
 ### Core Utilities
 
