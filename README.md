@@ -66,7 +66,11 @@ Streamlit-Work/
 │   └── Sign up.py
 ├── images/                          # 🖼️ UI Assets
 │   ├── background.jpg
-│   └── logo.png
+│   ├── main background.png
+│   ├── background code.png
+│   ├── background code1.png
+│   ├── background code2.png
+│   └── logo.py   
 ├── requirements.txt                 # 📦 Dependencies
 ├── .gitignore                       # 🚫 Git ignore rules
 └── README.md                        # 📖 This file
