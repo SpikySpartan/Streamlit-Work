@@ -55,7 +55,7 @@ Streamlit-Work/
 ├── Main.py                          # 🔐 Login/Portal page (entry point)
 ├── Pages/
 │   └── Maths Utilities.py          # 📊 Multi-tool dashboard with tabs
-├── Basic Codes/                     # 📚 Individual utility modules
+├── Codes/                           # 📚 Individual utility modules
 │   ├── Factorial.py
 │   ├── Generate the table of a number.py
 │   ├── Greatest Between Three Number.py
