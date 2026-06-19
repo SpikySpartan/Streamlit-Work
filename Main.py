@@ -6,8 +6,6 @@ st.set_page_config(
 )
 import base64
 import os
-
-# 1. Page Configuration
 st.set_page_config(
     page_title="Secure Portal Login",
     page_icon="🔐",
@@ -23,7 +21,6 @@ def get_base64_image(image_path):
 bg_base64 = get_base64_image("images/background.jpg")
 logo_base64 = get_base64_image("images/logo.png")
 
-# 3. Custom CSS Styles for Futuristic Interface Overlay
 if bg_base64:
     st.markdown(
         f"""
@@ -109,12 +106,9 @@ if bg_base64:
 else:
     st.error("⚠️ System Alert: 'background.jpg' missing from root directory.")
 
-# 4. Interface Header Display
 st.markdown('<p class="title-text">CORE ACCESS TERMINAL</p>', unsafe_allow_html=True)
-# 5. Login Interactive Panel Card
 with st.container(border=True):
-    
-    # Render user-supplied logo using memory buffer string 
+
     if logo_base64:
         st.markdown(f'<div class="logo-box"><img src="data:image/png;base64,{logo_base64}"></div>', unsafe_allow_html=True)
     else:
@@ -126,7 +120,6 @@ if login_clicked:
     if username.strip() == "" or password.strip() == "":
         st.error("⚠️ Validation Error: Both username and password fields are required.")
     else:
-        # Success visual feedback
         st.toast(f"Welcome back, {username}! 👋")
         st.success(f"### 🎉 Access Granted\nSuccessfully logged in as **{username}**.")
 
