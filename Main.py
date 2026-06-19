@@ -18,7 +18,7 @@ def get_base64_image(image_path):
             return base64.b64encode(img_file.read()).decode()
     return ""
 
-bg_base64 = get_base64_image("images/background.jpg")
+bg_base64 = get_base64_image("images/main background.jpg")
 logo_base64 = get_base64_image("images/logo.png")
 
 if bg_base64:
